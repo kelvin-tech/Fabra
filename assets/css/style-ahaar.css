@@ -1364,7 +1364,7 @@ a#scrollUp {
  
 
 .header__right {
-margin-right: 20px;
+margin-right: 10px;
   }
 
 .sticky__header.is-sticky {
@@ -1378,33 +1378,21 @@ margin-right: 20px;
   z-index: 998;
   background: #fff; }
 
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .header__right {
-    position: relative;
-    z-index: 2;
-    left: 56px; }
+
 
   .logo {
     position: relative;
-    z-index: 99; } }
-@media only screen and (max-width: 767px) {
-  .header__right {
-    left: 114px;
-    position: relative;
-    z-index: 2; }
+    z-index: 99; } 
+
 
   .logo {
     position: relative;
-    z-index: 99; } }
-@media only screen and (max-width: 575px) {
-  .header__right {
-    position: relative;
-    z-index: 2;
-    left: 56px; }
+    z-index: 99; } 
+
 
   .logo {
     position: relative;
-    z-index: 99; } }
+    z-index: 99; } 
 /*======= Navigation Styles =======*/
 nav.main__menu__nav {
   display: -webkit-box;
@@ -7997,13 +7985,7 @@ input[type="submit"] {
   .testimonial-2 + .testimonial-2 {
     display: none; }
 
-  .testimonial-2 {
-    flex-basis: 100%; } }
-@media only screen and (max-width: 767px) {
-  .header__right {
-    left: 114px;
-    position: relative;
-    z-index: 2; }
+
 
   .slide__pizza--2,
   .subscri__shape--2,
