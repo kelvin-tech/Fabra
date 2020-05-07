@@ -1,5 +1,6 @@
 html {
   scroll-behavior: smooth;
+  background-color: #fff;
 }
 @keyframes swing {
   0% {
@@ -568,6 +569,7 @@ body {
   background-position: center center;
   background-size: cover;
   position: relative;
+  margin-top: 4.64rem;
 }
 
 #footer-ad {
@@ -802,13 +804,14 @@ body {
   font-weight: 900;
 }
 
-.card {
-  border: 2px solid #cc3333;
+.card{
+  border-top: 1px solid #c33;
 }
 
 .card-body {
-  border-top: 1px solid #cc3333;
   background-color: #fff;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 .add2Cartbtn {
@@ -845,6 +848,10 @@ body {
 .searchbar .form-control {
   border: 2px solid #cc3333;
   border-radius: 0px;
+  font-size: 1rem;
+}
+.searchbar i{
+  color: #fff!important;
 }
 
 .form-control::placeholder {
@@ -896,18 +903,11 @@ a:hover {
 .signout-btn {
   color: #fff;
   background-color: #c33;
-  padding: 0;
   text-align: center;
   font-size: 0.7rem;
 }
 .pName-Etime .btn-outline-primary {
   background-color: #fff;
-}
-
-.btn:hover,
-.btn.js-active {
-  color: #fff;
-  background-color: #cc3333;
 }
 
 .btn-primary:hover {

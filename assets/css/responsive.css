@@ -20,12 +20,11 @@
   }
 
   .search-section h3 {
-    /* text-align: center; */
     font-size: inherit;
   }
 
   .card-body {
-    border-top: 1px solid #cc3333;
+    
     width: 100%;
     display: table;
     table-layout: fixed;
@@ -113,6 +112,19 @@
     position: absolute;
     top: 115px;
   }
+
+  .navbar-user-pic {
+    border: 2px solid #cc3333;
+    max-height: 40px;
+  }
+}
+@media (max-width: 768px) {
+  
+
+  .navbar-user-pic {
+    border: 2px solid #cc3333;
+    max-height: 2rem;
+  }
 }
 
 @media (max-width: 576px) {
@@ -135,18 +147,23 @@
     margin-right: 0px !important;
   }
 
+  .searchbar .form-control {
+    border: 2px solid #cc3333;
+    border-radius: 0px;
+    font-size: 0.7rem;
+}
+
   .search-section {
     margin-top: 1rem !important;
     margin-bottom: 1rem !important;
   }
 
   .search-section h3 {
-    /* text-align: center; */
     font-size: inherit;
   }
 
   .card-body {
-    border-top: 1px solid #cc3333;
+    
     width: 100%;
     display: table;
     table-layout: fixed;
