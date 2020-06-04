@@ -802,7 +802,7 @@ figure figcaption {
 }
 
 .text-danger {
-    color: #ff5252 !important
+    color: #c33 !important
 }
 
 .text-gray-dark {
@@ -875,7 +875,7 @@ figure figcaption {
 }
 
 .bg-danger {
-    background-color: #ff5252 !important
+    background-color: #c33 !important
 }
 
 .bg-inverse {
@@ -928,7 +928,7 @@ figure figcaption {
 }
 
 .border-danger {
-    border-color: #ff5252 !important
+    border-color: #c33 !important
 }
 
 .border-secondary {
@@ -1776,20 +1776,20 @@ kbd {
 }
 
 .form-control::-moz-placeholder {
-    color: #c33;
+    color: #212529;
     opacity: 1
 }
 
 .form-control:-ms-input-placeholder {
-    color: #c33
+    color: #212529
 }
 
 .form-control::-webkit-input-placeholder {
-    color: #c33
+    color: #212529
 }
 
 .form-control:focus {
-    border-color: #c33;
+    border-color: #212529;
     outline: none;
     color: #222;
     box-shadow: none !important
@@ -2143,7 +2143,7 @@ select.form-control.form-control-sm:not([size]):not([multiple]) {
 .was-validated .form-control.is-invalid,
 .was-validated .form-control-light-skin:invalid,
 .was-validated .form-control-light-skin.is-invalid {
-    border-color: #ff5252 !important
+    border-color: #c33 !important
 }
 
 .was-validated .form-control:invalid:focus,
@@ -2446,7 +2446,7 @@ button:focus {
 }
 
 .btn-danger {
-    background-color: #ff5252
+    background-color: #c33
 }
 
 .btn-danger:hover {
@@ -2517,13 +2517,13 @@ button:focus {
 }
 
 .btn-outline-danger {
-    border-color: #ff5252;
+    border-color: #c33;
     background-color: transparent;
-    color: #ff5252
+    color: #c33
 }
 
 .btn-outline-danger:hover {
-    background-color: #ff5252;
+    background-color: #c33;
     color: #fff
 }
 
@@ -2583,7 +2583,7 @@ button:focus {
 }
 
 .btn-link-danger {
-    color: #ff5252
+    color: #c33
 }
 
 .btn-link-danger:hover {
@@ -4118,7 +4118,7 @@ a.list-group-item {
 }
 
 .badge.badge-danger {
-    background-color: #ff5252
+    background-color: #c33
 }
 
 .list-group-item.active {
@@ -4208,7 +4208,7 @@ a.list-group-item {
 
 .list-group-item-danger {
     background-color: rgba(255, 82, 82, 0.12);
-    color: #ff5252 !important
+    color: #c33 !important
 }
 
 .list-group-item-danger>*,
@@ -4222,7 +4222,7 @@ a.list-group-item {
 .list-group-item-danger ul,
 .list-group-item-danger ol,
 .list-group-item-danger a {
-    color: #ff5252 !important
+    color: #c33 !important
 }
 
 .list-group-item-action:hover.list-group-item-info,
@@ -4512,7 +4512,7 @@ a.list-group-item {
 
 .alert-danger {
     background-color: rgba(255, 82, 82, 0.12);
-    color: #ff5252
+    color: #c33
 }
 
 .alert-danger::before {
@@ -4541,11 +4541,11 @@ a.list-group-item {
 .alert-danger ol:not(.text-light),
 .alert-danger a:not(.text-white),
 .alert-danger a:not(.text-light) {
-    color: #ff5252
+    color: #c33
 }
 
 .alert-danger .alert-close {
-    color: #ff5252
+    color: #c33
 }
 
 .alert-image-bg {
@@ -4621,7 +4621,7 @@ a.list-group-item {
 .iziToast.iziToast-danger {
     border-color: rgba(255, 82, 82, 0.3);
     background-color: #ffebeb;
-    color: #ff5252
+    color: #c33
 }
 
 .iziToast.iziToast-danger>.iziToast-close {
@@ -6544,16 +6544,16 @@ video {
 }
 
 .site-search>input::-moz-placeholder {
-    color: #c33;
+    color: #212529;
     opacity: 1
 }
 
 .site-search>input:-ms-input-placeholder {
-    color: #c33
+    color: #212529
 }
 
 .site-search>input::-webkit-input-placeholder {
-    color: #c33
+    color: #212529
 }
 
 .site-search .search-tools {
@@ -7004,7 +7004,7 @@ video {
     position: absolute;
     top: 12px;
     right: 0;
-    color: #ff5252;
+    color: #c33;
     font-size: 13px;
     line-height: 1;
     cursor: pointer
@@ -7243,7 +7243,8 @@ video {
     position: relative;
     min-height: 100vh;
     background-color: #fff;
-    z-index: 10
+    z-index: 10;
+    overflow-x: hidden;
 }
 
 .offcanvas-container {
@@ -7631,7 +7632,7 @@ video {
 }
 
 .product-card .product-buttons>.btn.btn-wishlist.active {
-    color: #ff5252
+    color: #c33
 }
 
 .product-card .product-badge {
@@ -7907,7 +7908,7 @@ video {
 .wishlist-table .remove-from-cart,
 .order-table .remove-from-cart {
     display: inline-block;
-    color: #ff5252;
+    color: #c33;
     font-size: 18px;
     line-height: 1;
     text-decoration: none
@@ -8142,7 +8143,7 @@ video {
     margin-top: -5px;
     margin-right: 7px;
     border-radius: 0;
-    color: #43d9a3;
+    color: #222;
     font-size: 18px;
     line-height: 20px;
     text-align: center;
@@ -8224,7 +8225,7 @@ video {
 }
 
 .sp-buttons .btn.btn-wishlist.active {
-    color: #ff5252
+    color: #c33
 }
 
 .product-gallery {

@@ -36,6 +36,104 @@
   </head>
   <!-- Body-->
   <body>
+     <!-- Shop Filters Modal-->
+     <div class="modal fade" id="modalShopFilters" tabindex="-1">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title">Shop Filters</h4>
+            <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          </div>
+          <div class="modal-body">
+            <!-- Widget Categories-->
+            <section class="widget widget-categories">
+              <h3 class="widget-title">Sections</h3>
+              <ul>
+                <li class="has-children"><a href="#">Fast Food</a><span>(1138)</span>                    
+                      <ul>
+                        <li><a href="#">Full Meal</a></li>
+                        <li><a href="#">Snacks</a></li>
+                        <li><a href="#">Drinks</a></li>
+                      </ul>
+                </li>
+                <li class="has-children"><a href="#">Groceries</a><span>(874)</span>
+                  <ul>
+                    <li><a href="#">Vegetables</a><span>(211)</span></li>
+                    <li><a href="#">Tubers</a><span>(195)</span></li>
+                    <li><a href="#">Cereals</a><span>(159)</span></li>
+                    <li><a href="#">Spices</a><span>(203)</span></li>
+                  </ul>
+                </li>
+                <li class="has-children"><a href="#">Clothes</a><span>(420)</span>
+                  <ul>
+                    <li><a href="#">Trousers &amp; Jeans</a><span>(180)</span></li>
+                    <li><a href="#">Shirts</a><span>(132)</span></li>
+                  </ul>
+                </li>
+                <li class="has-children"><a href="#">Eductional Supplies</a><span>(874)</span>
+                  <ul>
+                    <li><a href="#">Books</a><span>(211)</span></li>
+                  </ul>
+                </li>
+                <li class="has-children"><a href="#">Traveling Tickets</a><span>(874)</span>
+                  <ul>
+                  </ul>
+                </li>
+                <li class="has-children"><a href="#">Electronics</a><span>(874)</span>
+                  <ul>
+                    <li><a href="#">Laptops</a><span>(211)</span></li>
+                    <li><a href="#">Phones</a><span>(195)</span></li>
+                    <li><a href="#">Desktops</a><span>(159)</span></li>
+                    <li><a href="#">Hardware</a><span>(203)</span></li>
+                    <li><a href="#">Accessories</a><span>(106)</span></li>
+                  </ul>
+                </li>
+                <li class="has-children"><a href="#">House Furniture &amp; Appliances</a><span>(874)</span>
+                  <ul>
+                  </ul>
+                </li>
+              </ul>
+            </section>
+            <!-- Widget Price Range-->
+            <section class="widget widget-categories">
+              <h3 class="widget-title">Price Range</h3>
+              <form class="price-range-slider" method="post" data-start-min="250" data-start-max="650" data-min="0" data-max="1000" data-step="1">
+                <div class="ui-range-slider"></div>
+                <footer class="ui-range-slider-footer">
+                  <div class="column">
+                    <button class="btn btn-outline-primary btn-sm" type="submit">Filter</button>
+                  </div>
+                  <div class="column">
+                    <div class="ui-range-values">
+                      <div class="ui-range-value-min">GHC<span></span>
+                        <input type="hidden">
+                      </div>&nbsp;-&nbsp;
+                      <div class="ui-range-value-max">GHC<span></span>
+                        <input type="hidden">
+                      </div>
+                    </div>
+                  </div>
+                </footer>
+              </form>
+            </section>
+            <!-- Promo Banner-->
+            <section class="promo-box" style="background-image: url(img/banners/business-woman.jpg);">
+              <!-- Choose between .overlay-dark (#000) or .overlay-light (#fff) with default opacity of 50%. You can overrride default color and opacity values via 'style' attribute.--><span class="overlay-dark" style="opacity: .45;"></span>
+              <div class="promo-box-content text-center padding-top-3x padding-bottom-2x">
+                <h3 class="text-bold text-light text-shadow">Sell on<br> FABRA.COM</h3><a class="btn btn-sm btn-primary" href="#">Start Now</a>
+              </div>
+            </section>
+            <!-- Promo Banner 2-->
+            <section class="promo-box mt-5" style="background-image: url(img/banners/delivery-guy-sm.jpg);">
+              <!-- Choose between .overlay-dark (#000) or .overlay-light (#fff) with default opacity of 50%. You can overrride default color and opacity values via 'style' attribute.--><span class="overlay-dark" style="opacity: .45;"></span>
+              <div class="promo-box-content text-center padding-top-3x padding-bottom-2x">
+                <h3 class="text-bold text-light text-shadow">Become a<br> FABRA.COM<br> delivery guy</h3><a class="btn btn-sm btn-primary" href="#">Start Now</a>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>
+    </div>
   <!-- Off-Canvas Nav Menu-->
   <div class="offcanvas-container" id="shop-categories">
     <div class="container-fluid p-0">
@@ -158,21 +256,21 @@
                 </div>
               </li>
                 <li><a href="account-profile.html">My Profile</a></li>
-                <li><a href="#">Orders List</a></li>
+                <li><a href="account-orders.html">Orders List</a></li>
                 <li><a href="#">Wishlist</a></li>
               <li class="sub-menu-separator"></li>
               <li><a href="#"> <i class="icon-unlock"></i>Logout</a></li>
             </ul>
           </div>
-          <div class="cart"><a href="#"></a><i class="icon-bag"></i><span class="count">3</span><span class="subtotal">GHC289.68</span>
+          <div class="cart"><a href="cart.html"></a><i class="icon-bag"></i><span class="count">3</span><span class="subtotal">GHC289.68</span>
             <div class="toolbar-dropdown">
-              <div class="dropdown-product-item"><span class="dropdown-product-remove"><i class="icon-cross"></i></span><a class="dropdown-product-thumb" href="#"><img src="img/cart-dropdown/01.jpg" alt="Product"></a>
+              <div class="dropdown-product-item"><span class="dropdown-product-remove"><i class="icon-cross"></i></span><a class="dropdown-product-thumb" href="#"><img src="img/shop/products/product-1.jpg" alt="Product"></a>
                 <div class="dropdown-product-info"><a class="dropdown-product-title" href="#">Unionbay Park</a><span class="dropdown-product-details">1 x GHC43.90</span></div>
               </div>
-              <div class="dropdown-product-item"><span class="dropdown-product-remove"><i class="icon-cross"></i></span><a class="dropdown-product-thumb" href="#"><img src="img/cart-dropdown/02.jpg" alt="Product"></a>
+              <div class="dropdown-product-item"><span class="dropdown-product-remove"><i class="icon-cross"></i></span><a class="dropdown-product-thumb" href="#"><img src="img/shop/products/product-1.jpg" alt="Product"></a>
                 <div class="dropdown-product-info"><a class="dropdown-product-title" href="#">Daily Fabric Cap</a><span class="dropdown-product-details">2 x GHC24.89</span></div>
               </div>
-              <div class="dropdown-product-item"><span class="dropdown-product-remove"><i class="icon-cross"></i></span><a class="dropdown-product-thumb" href="#"><img src="img/cart-dropdown/03.jpg" alt="Product"></a>
+              <div class="dropdown-product-item"><span class="dropdown-product-remove"><i class="icon-cross"></i></span><a class="dropdown-product-thumb" href="#"><img src="img/shop/products/product-1.jpg" alt="Product"></a>
                 <div class="dropdown-product-info"><a class="dropdown-product-title" href="#">Haan Crossbody</a><span class="dropdown-product-details">1 x GHC200.00</span></div>
               </div>
               <div class="toolbar-dropdown-group">
@@ -180,8 +278,8 @@
                 <div class="column text-right"><span class="text-lg text-medium">GHC289.68&nbsp;</span></div>
               </div>
               <div class="toolbar-dropdown-group">
-                <div class="column"><a class="btn btn-sm btn-block btn-secondary" href="#">View Cart</a></div>
-                <div class="column"><a class="btn btn-sm btn-block btn-primary" href="#">Checkout</a></div>
+                <div class="column"><a class="btn btn-sm btn-block btn-secondary" href="cart.html">View Cart</a></div>
+                <div class="column"><a class="btn btn-sm btn-block btn-primary" href="checkout-address.html">Checkout</a></div>
               </div>
             </div>
           </div>
